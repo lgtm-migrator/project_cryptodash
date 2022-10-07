@@ -4,8 +4,6 @@ import { Row, Col } from 'antd';
 import { useGetExchangesQuery } from '../services/cryptoApi';
 import Loader from './Loader';
 
-
-
 const Exchanges = () => {
   const { isFetching } = useGetExchangesQuery();
   if (isFetching) return <Loader />;
