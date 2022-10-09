@@ -34,7 +34,7 @@ const App = () => (
       </Layout>
       <div className="footer">
         <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2022
-          <Link to="https://crypto.hacker.ind.in">
+          <Link to="">
             CryptoDash Inc.
           </Link> <br />
           All Rights Reserved.
